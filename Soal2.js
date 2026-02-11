@@ -1,5 +1,3 @@
-// Soal 2 - Array Reading Dasar
-// Membaca data array dan menentukan kondisi sederhana
 
 const dataStudyGroup = [
     { nama: "Software Development", kuota: 20, terdaftar: 18 },
@@ -29,7 +27,7 @@ function cekKetersediaan(data) {
     return { tersedia, penuh };
 }
 
-// jalankan fungsi
+// fungsi
 const hasil = cekKetersediaan(dataStudyGroup);
 
 console.log("Study Group yang masih tersedia:");
@@ -37,7 +35,7 @@ for (const nama of hasil.tersedia) {
     console.log(`- ${nama}`);
 }
 
-console.log("\nStudy Group yang sudah penuh:");
+console.log("\nStudy Group yang sudah penuh:");;
 for (const nama of hasil.penuh) {
     console.log(`- ${nama}`);
 }
